@@ -1,0 +1,17 @@
+[
+  {
+    "task": "Write a function that parses an AWS ARN (Amazon Resource Name) and returns a dictionary containing the partition, service, region, account-id, and resource components",
+    "format": "python",
+    "solution_criteria": "Function correctly splits ARN string on colons, handles ARNs with and without regions/account-ids, returns dict with keys: partition, service, region, account_id, resource"
+  },
+  {
+    "task": "Create a CloudFormation template JSON that defines an S3 bucket with versioning enabled and server-side encryption using AES256",
+    "format": "json",
+    "solution_criteria": "Valid CloudFormation JSON with S3 bucket resource, VersioningConfiguration Status set to Enabled, BucketEncryption with SSEAlgorithm AES256"
+  },
+  {
+    "task": "Write a regex pattern that validates AWS Security Group IDs (format: sg- followed by 8 or 17 hexadecimal characters)",
+    "format": "regex",
+    "solution_criteria": "Pattern matches sg-12345678 and sg-0123456789abcdef0 formats, anchored to match full string, only accepts valid hexadecimal characters, rejects invalid lengths"
+  }
+]
