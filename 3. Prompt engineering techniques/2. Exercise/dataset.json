@@ -1,0 +1,39 @@
+[
+  {
+    "prompt_inputs": {
+      "content": "Recent analyses demonstrate the complex interplay between climate change mitigation and economic development in emerging markets. Rising atmospheric carbon dioxide concentrations necessitate urgent policy interventions, yet developing nations face competing priorities of poverty reduction and industrialization. Carbon pricing mechanisms, whether implemented as taxes or cap-and-trade systems, present both opportunities for emissions reduction and risks of economic burden on lower-income populations. Simultaneously, renewable energy infrastructure investments offer pathways to decarbonization while creating employment in manufacturing and installation sectors. International climate agreements increasingly recognize the need to balance environmental sustainability with equitable economic growth, incorporating climate finance mechanisms and technology transfer provisions to support national adaptation strategies in vulnerable regions."
+    },
+    "solution_criteria": [
+      "Extracts topics spanning at least three distinct domains (climate science, economics, and policy)",
+      "Identifies and separates topics as individual strings in a JSON array format",
+      "Captures all major thematic areas present in the passage without significant omissions"
+    ],
+    "task_description": "\n    Extract topics out of a passage of text from a scholarly article into a JSON array of strings\n    ",
+    "scenario": "Testing with a passage containing interdisciplinary topics spanning multiple domains (e.g., climate science, economics, and policy) to verify the prompt can identify and separate distinct thematic areas"
+  },
+  {
+    "prompt_inputs": {
+      "content": "This study investigates the epigenetic mechanisms underlying phenotypic plasticity in Drosophila melanogaster exposed to thermal stress. We employed chromatin immunoprecipitation sequencing (ChIP-seq) to profile histone modifications across the genome during heat shock responses, revealing dynamic acetylation patterns at heat shock protein (HSP) promoters. Concurrent RNA-seq analysis identified 487 differentially expressed genes, with enrichment in oxidative stress pathways and molecular chaperone complexes. Using CRISPR-Cas9 mutagenesis, we demonstrated that histone acetyltransferase CBP mediates this transcriptional response through interaction with heat shock factor (HSF1), suggesting a novel epigenetic-transcriptional regulatory axis. Our findings bridge cellular stress responses and developmental plasticity, with implications for understanding environmental buffering in complex organisms."
+    },
+    "solution_criteria": [
+      "Extracts both explicitly stated topics (epigenetics, thermal stress, ChIP-seq, RNA-seq, CRISPR-Cas9) and implicitly inferred topics (heat shock response, gene regulation, developmental plasticity) from the abstract",
+      "Identifies specific biological entities and methods (histone modifications, HSP, CBP, HSF1) as distinct topics",
+      "Avoids over-generalizing related concepts into single topics while appropriately grouping only tightly coupled terms",
+      "Returns results as a valid JSON array of strings with no additional fields or explanatory text"
+    ],
+    "task_description": "\n    Extract topics out of a passage of text from a scholarly article into a JSON array of strings\n    ",
+    "scenario": "Testing with a dense academic abstract containing implicit and explicit topics, where some topics require inference from context while others are directly stated, to assess extraction accuracy and specificity"
+  },
+  {
+    "prompt_inputs": {
+      "content": "This study employs a mixed-methods longitudinal design utilizing structural equation modeling (SEM) and hierarchical linear regression to investigate the relationship between organizational resilience and employee well-being across twelve manufacturing facilities. Data were collected via validated psychometric instruments including the Connor-Davidson Resilience Scale and the Warwick-Edinburgh Mental Well-being Scale, administered quarterly over a 24-month period. Participants completed self-report questionnaires and participated in semi-structured interviews coded using thematic analysis. Statistical analysis revealed significant mediation effects of social capital on the resilience-well-being pathway (\u03b2 = 0.42, p < 0.001), while qualitative findings identified workplace trust and communication transparency as critical organizational factors. Multilevel modeling accounted for nested data structures at both individual and facility levels."
+    },
+    "solution_criteria": [
+      "Extracts core research topics (resilience, well-being, social capital, organizational factors) while excluding methodological procedures (SEM, regression, questionnaires, coding, statistical analysis)",
+      "Returns results as a valid JSON array of strings",
+      "Distinguishes between substantive topics and technical/procedural terminology"
+    ],
+    "task_description": "\n    Extract topics out of a passage of text from a scholarly article into a JSON array of strings\n    ",
+    "scenario": "Testing with a passage rich in technical jargon and methodological terminology to ensure the prompt distinguishes between core research topics and procedural/methodological references"
+  }
+]

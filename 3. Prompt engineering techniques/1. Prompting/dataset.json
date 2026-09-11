@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Prepare for marathon race day with optimized carbohydrate and calorie intake timed around a 15km training run scheduled for 10am",
+      "restrictions": "Vegetarian, lactose intolerant"
+    },
+    "solution_criteria": [
+      "Meal plan covers one full day with 3+ meals and snacks appropriately timed before, during, and after the 10am training run",
+      "Total daily calories and carbohydrate intake reflect elevated endurance athlete requirements (approximately 3000+ calories, 8-10g carbs per kg body weight)",
+      "All meals and snacks comply with vegetarian and lactose-free restrictions",
+      "Plan is concise and presented in a compact format suitable for quick reference"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-endurance athlete (marathon runner) requiring elevated calorie and carbohydrate intake with specific timing around training windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "180 cm",
+      "weight": "90 kg",
+      "goal": "Maximize muscle gain and strength recovery from weightlifting",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan covers exactly 1 day with breakfast, lunch, dinner, and snacks",
+      "Protein distributed across all meals (minimum 25g per meal) totaling 150+ grams daily",
+      "Includes recovery-focused nutrition (carbs post-workout, casein/slow-digesting protein for overnight recovery)",
+      "Concise format with clear meal times and portion sizes"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength-focused athlete (weightlifter) emphasizing protein distribution and recovery nutrition with minimal cardio considerations"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "75 kg",
+      "goal": "Lose 3 kg over 2 weeks while maintaining boxing performance and strength",
+      "restrictions": "No dairy, vegetarian"
+    },
+    "solution_criteria": [
+      "Meal plan covers all 3 meals for 1 day with realistic portion sizes appropriate for weight loss while supporting athletic performance",
+      "Total daily calories support the weight loss goal (approximately 2000-2200 kcal for a 178cm, 75kg male boxer)",
+      "All meals are vegetarian and dairy-free",
+      "Plan includes adequate protein (minimum 1.2g per kg body weight) for strength maintenance during weight cut"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport requiring weight management (boxer or wrestler) needing a balanced plan that maintains performance while meeting specific caloric or weight targets"
+  }
+]
