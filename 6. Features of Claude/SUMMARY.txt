@@ -1,0 +1,29 @@
+================================================================================
+STREAMING SERVICE CHURN ANALYSIS - EXECUTIVE SUMMARY
+================================================================================
+
+CHURN RATE: 38.6% (193 of 500 customers)
+
+TOP 3 MAJOR CHURN DRIVERS:
+1. Total Viewing Hours (22.2% importance) - Churned: 66.6h vs Retained: 83.2h
+2. Avg Session Duration (20.0% importance) - Churned: 49min vs Retained: 58min  
+3. Unique Titles Watched (16.8% importance) - Churned: 19.5 vs Retained: 23.7
+
+OTHER KEY DRIVERS:
+4. Binge Watching Sessions (11.3%)
+5. Customer Service Calls (10.6%) - WARNING: 5+ calls = 50%+ churn!
+6. Top Genre (10.5%) - Horror/Thriller highest risk
+7. Monthly Cost (5.1%)
+8. Subscription Tier (3.5%) - Basic: 43.5% churn, Premium: 24.1%
+
+KEY INSIGHT: Engagement is everything. Churned customers show 20% lower 
+engagement across all metrics (p < 0.0001).
+
+RECOMMENDED ACTIONS:
+✓ Monitor customers with <60 viewing hours/month
+✓ Prioritize retention for 3+ service interactions
+✓ Enhance content discovery and recommendations
+✓ Re-evaluate Basic tier value proposition
+
+See churn_analysis_report.md for detailed recommendations.
+================================================================================
